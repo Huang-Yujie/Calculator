@@ -1,6 +1,6 @@
 # Calculator
 My project of BingyanStudio mobile intern during National Day holidays.  
-[***Intern Diary***](https://github.com/Huang-Yujie/Calculator/blob/master/Intern_Diary.md)
+⇒[***Intern Diary***](https://github.com/Huang-Yujie/Calculator/blob/master/Intern_Diary.md)⇐
 ![](https://tva1.sinaimg.cn/large/006y8mN6ly1g7pxd87pooj30rc1c2ka3.jpg)
 ## 实现功能
 - 四则运算
