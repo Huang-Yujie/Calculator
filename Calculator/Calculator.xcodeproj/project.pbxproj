@@ -61,16 +61,48 @@
 		B63241942344DCE700646540 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				B6CCE49D236435A0000CB030 /* Model */,
+				B6CCE49C2364357C000CB030 /* View */,
+				B6CCE49E236435AB000CB030 /* Control */,
+				B6CCE49F236435C5000CB030 /* Support */,
+				B63241A32344DCE800646540 /* Info.plist */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		B6CCE49C2364357C000CB030 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				B632419B2344DCE700646540 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6CCE49D236435A0000CB030 /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				B63241A9234634CD00646540 /* CalculatorBrain.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6CCE49E236435AB000CB030 /* Control */ = {
+			isa = PBXGroup;
+			children = (
 				B63241992344DCE700646540 /* ViewController.swift */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		B6CCE49F236435C5000CB030 /* Support */ = {
+			isa = PBXGroup;
+			children = (
 				B63241952344DCE700646540 /* AppDelegate.swift */,
 				B63241972344DCE700646540 /* SceneDelegate.swift */,
 				B632419E2344DCE800646540 /* Assets.xcassets */,
 				B63241A02344DCE800646540 /* LaunchScreen.storyboard */,
-				B63241A32344DCE800646540 /* Info.plist */,
 			);
-			path = Calculator;
+			path = Support;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +331,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hust.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = HuangYujie.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +349,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = hust.Calculator;
+				PRODUCT_BUNDLE_IDENTIFIER = HuangYujie.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
