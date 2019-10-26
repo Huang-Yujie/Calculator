@@ -196,6 +196,11 @@ class Calculator
                 stack.append(result)
             }
         }
+        let answer = Double (stack.last!)!
+        if floor(answer) == answer
+        {
+            return String(Int(answer))
+        }
         return stack.last!
     }
 }
